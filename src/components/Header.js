@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
+import logo from "../static/img/giorny.png";
 import {
   Grid,
   Toolbar,
@@ -44,10 +45,7 @@ export default function ButtonAppBar() {
             >
               <Grid item>
                 <Grid container alignItems="center">
-                  <FaAlignLeft size={"1em"} />
-                  <Typography variant="subtitle2" style={{ marginLeft: 8 }}>
-                    Icon
-                  </Typography>
+                  <img src={logo} width="121px" height={40} />
                 </Grid>
               </Grid>
               <Grid item>
