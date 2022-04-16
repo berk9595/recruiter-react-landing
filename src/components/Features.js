@@ -102,7 +102,7 @@ const Features = ({ classes, ...props }) => {
         variant="h1"
         style={{ fontSize: 45, fontWeight: 600 }}
       >
-        Our Main <Box className={classes.box}>Features</Box>
+        What can you do with <Box className={classes.box}>Giorny?</Box>
       </Typography>
       <Grid
         container
@@ -123,8 +123,8 @@ const Features = ({ classes, ...props }) => {
             url={"/individuals"}
             image={every11}
             reverse
-            title="Company page"
-            text="Your unique page with your company brand and social purpose"
+            title="Configure"
+            text="Customize your development process and establish a main framework."
           />
         </Grid>
         <Grid
@@ -139,8 +139,8 @@ const Features = ({ classes, ...props }) => {
             hideLearnMore={true}
             url={"/individuals"}
             image={every12}
-            title="Private feed"
-            text="Endorse opportunities that fit with your company’s social purpose."
+            title="Plan"
+            text="Align your employees and managers to create targeted improvement plans."
           />
         </Grid>
         <Grid
@@ -155,8 +155,8 @@ const Features = ({ classes, ...props }) => {
             hideLearnMore={true}
             url={"/individuals"}
             image={every13}
-            title="Team volunteering"
-            text="Have your employees volunteer as a team to address different opportunities."
+            title="Guidance"
+            text="Guide your new team members through the process and motivate them along the way."
           />
         </Grid>
         <Grid
@@ -172,8 +172,8 @@ const Features = ({ classes, ...props }) => {
             url={"/individuals"}
             image={every7}
             reverse
-            title="Search by skills"
-            text="Intelligent skill matching to put the right person in the right project"
+            title="Follow the Process"
+            text="Be around for your new team members at all times to optimize the process and initiate targeted conversations."
           />
         </Grid>
 
@@ -190,8 +190,8 @@ const Features = ({ classes, ...props }) => {
             url={"/individuals"}
             image={every8}
             reverse
-            title="Receive recommendations"
-            text="Evidence your impact with feedback & recommendations from non-profits."
+            title="Orientation"
+            text="Provide a preparation experience for new team members to quickly adapt to the corporate culture."
           />
         </Grid>
         <Grid
@@ -206,8 +206,8 @@ const Features = ({ classes, ...props }) => {
             hideLearnMore={true}
             url={"/individuals"}
             image={every9}
-            title="Newsfeed & updates"
-            text="Have your employees collaborate, share updates, and communicate achievements"
+            title="Feedback & Updates"
+            text="Let your employees share their progress and achievements and give feedback to each other."
           />
         </Grid>
       </Grid>

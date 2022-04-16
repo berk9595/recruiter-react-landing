@@ -56,19 +56,21 @@ function Landing() {
   };
   const arrNeeds = [
     {
-      description: "Invite 10 of your colleagues and start sharing your",
+      description: "Invite 5 new team members and start sharing your content.",
       subtitle: "£0 - month",
       title: "Free",
     },
     {
-      description: "Invite up to 50 of your colleagues, share your skills",
-      subtitle: "£179 - month",
+      description:
+        "Invite 20 new team members, and get automated intros and reminders.",
+      subtitle: "£15- month",
       title: "Starter",
       spec: true,
     },
     {
-      description: "Engage unlimited number of colleagues.",
-      subtitle: "£479 - month",
+      description:
+        "Invite an unlimited number of your team and use our platform to its fullest with all of the features available.",
+      subtitle: "£95 - month",
       title: "Pro",
     },
     {
@@ -80,21 +82,21 @@ function Landing() {
   const arr = [
     {
       description:
-        "Join with teammates, or collaborate with colleagues you don’t usually.",
+        "Provide a preparation experience for new team members to quickly adapt to the corporate culture.",
       icon: "https://res.cloudinary.com/goodsted/image/upload/v1635792436/group-2-fill_5_1_clp36g.png",
       title: "Bond with your team",
     },
     {
       description:
-        "Put your skills to work for a cause you’re passionate about.",
+        "Add and easily track your pre-prepared assignments, reminders, quizzes, and up-to-date courses.",
       icon: "https://res.cloudinary.com/goodsted/image/upload/v1635792449/tools-fill_1_i5a2je.png",
-      title: "Use your skills for good",
+      title: "Learning Management System",
     },
     {
       description:
-        "Learn and practice creative thinking, empathy and prototyping.",
+        "Turn your managers into coaches and contribute to company performance with the continuous improvement cycle you will create.",
       icon: "https://res.cloudinary.com/goodsted/image/upload/v1635792462/lightbulb-fill_1_1_g8v4n2.png",
-      title: "Practice design thinking",
+      title: "Employee Development Cycle",
     },
   ];
   const classes = useStyles();
@@ -137,8 +139,8 @@ function Landing() {
           "https://res.cloudinary.com/goodsted/image/upload/v1635455195/Group_8515_pdsyf0.png"
         }
         backgroundColor={"#f4fefc"}
-        title="Team building for social impact"
-        description="Are you looking for an inspiring team building activity with a touch of skill development? Dedicate 2h a week over 5 weeks to support a nonprofit with a challenge! Have fun, and do-good.  "
+        title="Employee Management Tool"
+        description="Why Giorny? Because we know very well that developing your company is about developing your team, development goes through appropriate progress options and follow-up. That's why Giorny is for you to train your team at the level you want."
       />
       <StatusCard arr={arr} />
       <NewFaqs
@@ -147,8 +149,8 @@ function Landing() {
           link: "/talk-to-us?tag=employee-purpose",
           text: "Talk to us",
         }}
-        title="Fit to your needs"
-        description="Choose the plan that’s right for you - whether you’re just starting out on your employee volunteering programmeand. "
+        title="Choose Your Plan"
+        description="Choose the payment plan that’s right for you. You can easily upgrade or cancel your payment plan anytime you want."
       />
       <Grid container justifyContent="center">
         <Grid container className="new-container">
