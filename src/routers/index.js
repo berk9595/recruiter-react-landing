@@ -11,14 +11,13 @@ const routesConfig = [
   },
 ];
 
-const renderRoutes = (routes, university) =>
+const renderRoutes = (routes) =>
   routes ? (
-    <Switch>
-      {routes.map((route, i) => {
-        const Component = route.component;
-
-        return (
-          <Suspense fallback={<>...</>}>
+    <Suspense fallback={<>...</>}>
+      <Switch>
+        {routes.map((route, i) => {
+          const Component = route.component;
+          return (
             <Route
               key={i}
               path={route.path}
@@ -26,18 +25,18 @@ const renderRoutes = (routes, university) =>
               render={(props) => (
                 <>
                   <Header />
-                  <Component university={university} {...props} />
+                  <Component {...props} />
                   <Footer />
                 </>
               )}
             />
-          </Suspense>
-        );
-      })}
-    </Switch>
+          );
+        })}
+      </Switch>
+    </Suspense>
   ) : null;
 
-function Routes({ university }) {
-  return renderRoutes(routesConfig, university);
+function Routes() {
+  return renderRoutes(routesConfig);
 }
 export default Routes;

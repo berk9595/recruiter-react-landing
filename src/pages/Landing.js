@@ -5,6 +5,7 @@ import { Grid, Button, useMediaQuery } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import Features from "../components/Features";
+// import Team from "../components/Team";
 const useStyles = makeStyles((theme) => ({
   btn: {
     fontSize: 16,
@@ -156,6 +157,9 @@ function Landing() {
         <Grid container className="new-container">
           <Features />
         </Grid>
+        {/* <Grid container className="new-container">
+          <Team />
+        </Grid> */}
       </Grid>
     </div>
   );
